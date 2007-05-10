@@ -1,0 +1,128 @@
+chemical-mime-data
+------------------------------------------
+The chemical-mime-data package is a collection of data files to add 
+support for various chemical MIME types on Linux/UNIX desktops, such as 
+KDE and GNOME.
+
+Runtime requirements:
+  shared-mime-info-0.21-1
+
+Build requirements:
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.2.11-1
+  gawk-3.1.5-4
+  ImageMagick-6.3.0.1-2
+  intltool-0.35.5-1
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://chemical-mime.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/chemical-mime/
+
+-------------------------------------------
+
+Build instructions:
+  unpack chemical-mime-data-0.1.94-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./chemical-mime-data-0.1.94-X.cygport all
+
+This will create:
+  /usr/src/chemical-mime-data-0.1.94-X-src.tar.bz2
+  /usr/src/chemical-mime-data-0.1.94-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/chemical-mime-data.sh
+  /usr/share/doc/Cygwin/chemical-mime-data-0.1.94.README
+  /usr/share/doc/chemical-mime-data-0.1.94/AUTHORS
+  /usr/share/doc/chemical-mime-data-0.1.94/COPYING
+  /usr/share/doc/chemical-mime-data-0.1.94/ChangeLog
+  /usr/share/doc/chemical-mime-data-0.1.94/HACKING
+  /usr/share/doc/chemical-mime-data-0.1.94/INSTALL
+  /usr/share/doc/chemical-mime-data-0.1.94/NEWS
+  /usr/share/doc/chemical-mime-data-0.1.94/README
+  /usr/share/doc/chemical-mime-data-0.1.94/THANKS
+  /usr/share/doc/chemical-mime-data-0.1.94/TODO
+  /usr/share/doc/chemical-mime-data-0.1.94/chemical-mime-data.html
+  /usr/share/doc/chemical-mime-data-0.1.94/cmd.css
+  /usr/share/doc/chemical-mime-data-0.1.94/index.html
+  /usr/share/icons/hicolor/128x128/mimetypes/gnome-mime-chemical.png
+  /usr/share/icons/hicolor/16x16/mimetypes/gnome-mime-chemical.png
+  /usr/share/icons/hicolor/192x192/mimetypes/gnome-mime-chemical.png
+  /usr/share/icons/hicolor/22x22/mimetypes/gnome-mime-chemical.png
+  /usr/share/icons/hicolor/24x24/mimetypes/gnome-mime-chemical.png
+  /usr/share/icons/hicolor/32x32/mimetypes/gnome-mime-chemical.png
+  /usr/share/icons/hicolor/36x36/mimetypes/gnome-mime-chemical.png
+  /usr/share/icons/hicolor/48x48/mimetypes/gnome-mime-chemical.png
+  /usr/share/icons/hicolor/64x64/mimetypes/gnome-mime-chemical.png
+  /usr/share/icons/hicolor/72x72/mimetypes/gnome-mime-chemical.png
+  /usr/share/icons/hicolor/96x96/mimetypes/gnome-mime-chemical.png
+  /usr/share/icons/hicolor/scalable/mimetypes/gnome-mime-chemical.svgz
+  /usr/share/mime-info/chemical-mime-data.keys
+  /usr/share/mime-info/chemical-mime-data.mime
+  /usr/share/mime/packages/chemical-mime-data.xml
+  /usr/share/mimelnk/chemical/x-alchemy.desktop
+  /usr/share/mimelnk/chemical/x-cache.desktop
+  /usr/share/mimelnk/chemical/x-cactvs-ascii.desktop
+  /usr/share/mimelnk/chemical/x-cactvs-binary.desktop
+  /usr/share/mimelnk/chemical/x-cactvs-table.desktop
+  /usr/share/mimelnk/chemical/x-cdx.desktop
+  /usr/share/mimelnk/chemical/x-cdxml.desktop
+  /usr/share/mimelnk/chemical/x-chem3d.desktop
+  /usr/share/mimelnk/chemical/x-cif.desktop
+  /usr/share/mimelnk/chemical/x-cml.desktop
+  /usr/share/mimelnk/chemical/x-dmol.desktop
+  /usr/share/mimelnk/chemical/x-gamess-input.desktop
+  /usr/share/mimelnk/chemical/x-gamess-output.desktop
+  /usr/share/mimelnk/chemical/x-gaussian-input.desktop
+  /usr/share/mimelnk/chemical/x-gaussian-log.desktop
+  /usr/share/mimelnk/chemical/x-genbank.desktop
+  /usr/share/mimelnk/chemical/x-gulp.desktop
+  /usr/share/mimelnk/chemical/x-hin.desktop
+  /usr/share/mimelnk/chemical/x-inchi-xml.desktop
+  /usr/share/mimelnk/chemical/x-inchi.desktop
+  /usr/share/mimelnk/chemical/x-jcamp-dx.desktop
+  /usr/share/mimelnk/chemical/x-macromodel-input.desktop
+  /usr/share/mimelnk/chemical/x-mdl-molfile.desktop
+  /usr/share/mimelnk/chemical/x-mdl-rdfile.desktop
+  /usr/share/mimelnk/chemical/x-mdl-rxnfile.desktop
+  /usr/share/mimelnk/chemical/x-mdl-tgf.desktop
+  /usr/share/mimelnk/chemical/x-mmcif.desktop
+  /usr/share/mimelnk/chemical/x-mol2.desktop
+  /usr/share/mimelnk/chemical/x-mopac-graph.desktop
+  /usr/share/mimelnk/chemical/x-mopac-out.desktop
+  /usr/share/mimelnk/chemical/x-msi-car.desktop
+  /usr/share/mimelnk/chemical/x-msi-hessian.desktop
+  /usr/share/mimelnk/chemical/x-msi-mdf.desktop
+  /usr/share/mimelnk/chemical/x-msi-msi.desktop
+  /usr/share/mimelnk/chemical/x-ncbi-asn1-binary.desktop
+  /usr/share/mimelnk/chemical/x-ncbi-asn1-xml.desktop
+  /usr/share/mimelnk/chemical/x-ncbi-asn1.desktop
+  /usr/share/mimelnk/chemical/x-shelx.desktop
+  /usr/share/mimelnk/chemical/x-vmd.desktop
+  /usr/share/mimelnk/chemical/x-xyz.desktop
+  /usr/share/pixmaps/chemistry.png
+  /usr/share/pixmaps/gnome-mime-chemical.png
+  /usr/share/pkgconfig/chemical-mime-data.pc
+
+------------------
+
+Port Notes:
+
+----- version 0.1.94-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
