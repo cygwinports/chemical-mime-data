@@ -5,19 +5,19 @@ support for various chemical MIME types on Linux/UNIX desktops, such as
 KDE and GNOME.
 
 Runtime requirements:
-  shared-mime-info-0.21-1
+  shared-mime-info-0.60-2
 
 Build requirements:
-  cygwin-1.5.24-2
-  autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
-  binutils-20060817-1
-  cygport-0.2.11-1
-  gawk-3.1.5-4
-  ImageMagick-6.3.0.1-2
-  intltool-0.35.5-1
-  make-3.81-1
-  pkg-config-0.21-1
+  autoconf2.5-2.63-10
+  automake1.9-1.9.6-10
+  binutils-20080624-2
+  cygport-0.9.7-1
+  gawk-3.1.6-2
+  gnome-common-2.26.0-2
+  ImageMagick-6.4.0.6-1
+  intltool-0.40.6-1
+  make-3.81-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical website:
@@ -45,18 +45,17 @@ Files included in the binary package:
 
   /etc/postinstall/chemical-mime-data.sh
   /usr/share/doc/Cygwin/chemical-mime-data-0.1.94.README
-  /usr/share/doc/chemical-mime-data-0.1.94/AUTHORS
-  /usr/share/doc/chemical-mime-data-0.1.94/COPYING
-  /usr/share/doc/chemical-mime-data-0.1.94/ChangeLog
-  /usr/share/doc/chemical-mime-data-0.1.94/HACKING
-  /usr/share/doc/chemical-mime-data-0.1.94/INSTALL
-  /usr/share/doc/chemical-mime-data-0.1.94/NEWS
-  /usr/share/doc/chemical-mime-data-0.1.94/README
-  /usr/share/doc/chemical-mime-data-0.1.94/THANKS
-  /usr/share/doc/chemical-mime-data-0.1.94/TODO
-  /usr/share/doc/chemical-mime-data-0.1.94/chemical-mime-data.html
-  /usr/share/doc/chemical-mime-data-0.1.94/cmd.css
-  /usr/share/doc/chemical-mime-data-0.1.94/index.html
+  /usr/share/doc/chemical-mime-data/AUTHORS
+  /usr/share/doc/chemical-mime-data/COPYING
+  /usr/share/doc/chemical-mime-data/ChangeLog
+  /usr/share/doc/chemical-mime-data/HACKING
+  /usr/share/doc/chemical-mime-data/NEWS
+  /usr/share/doc/chemical-mime-data/README
+  /usr/share/doc/chemical-mime-data/THANKS
+  /usr/share/doc/chemical-mime-data/TODO
+  /usr/share/doc/chemical-mime-data/chemical-mime-data.html
+  /usr/share/doc/chemical-mime-data/cmd.css
+  /usr/share/doc/chemical-mime-data/index.html
   /usr/share/icons/hicolor/128x128/mimetypes/gnome-mime-chemical.png
   /usr/share/icons/hicolor/16x16/mimetypes/gnome-mime-chemical.png
   /usr/share/icons/hicolor/192x192/mimetypes/gnome-mime-chemical.png
@@ -120,8 +119,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.1.94-1 -----
-Initial release for Cygwin.
+----- version 0.1.94-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

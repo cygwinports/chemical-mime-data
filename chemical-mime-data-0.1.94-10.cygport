@@ -9,5 +9,5 @@ CYGCONF_ARGS="--disable-update-database"
 src_install() {
 	cd ${B}
 	cyginstall
-	rm -fr ${D}/usr/{lib,share}/locale/
+#	rm -fr ${D}/usr/{lib,share}/locale/
 }
